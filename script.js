@@ -7,7 +7,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // OpenWeatherMap APIから天気情報を取得
-const apiKey = '48f05f04634956cfec6452002c38094b'; // ここにOpenWeatherMapのAPIキーを設定
+const apiKey = ''; // ここにOpenWeatherMapのAPIキーを設定
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=${apiKey}`;
 
 fetch(apiUrl)
