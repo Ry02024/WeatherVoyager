@@ -1,3 +1,2 @@
-<script>
-    alert("こんにちは、JavaScript！");
-</script>
+// script.js
+alert("こんにちは、JavaScript！");
